@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Scatterplot Graph</title>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1 id="title">Doping in Professional Bicycle Racing</h1>
+        <div class="container">
+            <svg id="canvas">
+            </svg>
+            <svg id="legend">
+
+                <g>
+                    <rect x="5" y="25" width="25" height="25" fill="orange"></rect>
+                    <text x="40" y="42">Doping Allegation</text>
+                </g>
+                <g>
+                    <rect x="5" y="60" width="25" height="25" fill="lightgreen"></rect>
+                    <text x="40" y="77">No Doping Allegation</text>
+                </g>
+
+            </svg>
+        </div>
+
+        <script defer src="script.js"></script>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+
+</html>
